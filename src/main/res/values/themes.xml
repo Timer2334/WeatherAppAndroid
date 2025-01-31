@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Timer233420" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="NightAdjusted.Theme.Splash" parent="Theme.SplashScreen">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="NightAdjusted.Theme.Splash">
+        <item name="windowSplashScreenBackground">#E6DCF6</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/cloudy_anim</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.Timer233420</item>
+    </style>
+</resources>
