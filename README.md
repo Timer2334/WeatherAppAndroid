@@ -18,8 +18,3 @@
 - 📡 **Retrofit** — загрузка данных о погоде
 - 🌍 **OpenWeather API** — получение прогноза
 - 🚀 **Coroutines + Flow** — асинхронная работа
-
-## 📦 Установка
-1. Склонируйте репозиторий:  
-   ```sh
-   git clone https://github.com/USERNAME/weather-app.git
